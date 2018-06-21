@@ -1,0 +1,242 @@
+@import '../variables.scss';
+
+.slideshow {
+  width: 50%;
+  float: left;
+}
+.slideshow-backgroundGrayBlock {
+  background-color: $color-slideshow-gray-bg;
+  border-radius: 3px;
+}
+.slideshow-backgroundGrayBlock--aboutUs {
+  width: 71%;
+  margin-left: 140px;
+  margin-top: 35px;
+  height: 410px;
+}
+.slideshow-image--workSpace1 {
+	background-image: url('/img/work-space-1.jpeg');
+}
+.slideshow-image--workSpace2 {
+	background-image: url('/img/work-space-2.jpeg');
+}
+.slideshow-image--workSpace3 {
+	background-image: url('/img/work-space-3.jpeg');
+}
+.slideshow-image--aboutUsChair {
+	background-image: url('/img/about-us-chair.jpg');
+}
+.slideshow-slides {
+	display: none;
+  position: relative;
+  margin: auto;
+  background-position: 53.5% 50%;
+  background-size: cover;
+  box-shadow: $color-slideshow-gray-bg 0px 0px 35px 10px;
+}
+.slideshow-slides--aboutUs {
+  width: 82%;
+  height: 483px;
+  bottom: 35px;
+  background-position: 53.5% 50%;
+  background-size: cover;
+  box-shadow: $color-slideshow-gray-bg 0px 0px 35px 10px;
+}
+.slideshow-dotsLine {
+  position: relative;
+  text-align: center;
+}
+.slideshow-dotsLine--aboutUs {
+  top: 77px;
+  margin-left: 140px;
+  width: 71%;
+}
+.slideshow-dot {
+	cursor: pointer;
+  height: 10px;
+  padding: 0;
+  border-radius: 35%;
+  background-color: $color-slideshow-got;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.slideshow-dot--active {
+  background-color: $color-main-brand-bright;	
+}
+.slideshow--teammate {
+  width: 37%;
+}
+.slideshow-backgroundGrayBlock--teammate {
+  width: 79%;
+  margin-left: 103px;
+  margin-top: 7px;
+  height: 362px;
+}
+.slideshow-image--teammate1 {
+  background-image: url('/img/team-1.jpg');
+}
+.slideshow-image--teammate2 {
+  background-image: url('/img/team-2.jpg');
+}
+.slideshow-image--teammate3 {
+  background-image: url('/img/team-3.jpg');
+}
+.slideshow-image--teammate4 {
+  background-image: url('/img/team-4.jpg');
+}
+.slideshow-slides--teammate {
+  width: 81%;
+  height: 412px;
+  bottom: 27px;
+}
+.slideshow-dotsLine--teammate {
+  top: 67px;
+  margin-left: 103px;
+  width: 79%;
+}
+.slideshow-textInfoBlock {
+  width: 49.3%;
+  float: right;
+  margin-right: 106px;
+  margin-top: 7px;
+  height: 362px;
+}
+.slideshow-textInfoSlides {
+  height: 362px;
+  display: none;
+}
+.slideshow-textInfoHeader {
+  text-align: center;
+  padding-top: 98px;
+  padding-left: 80px;
+  text-transform: uppercase;
+}
+.slideshow-textInfoText {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: $fontSize-smaller;
+  letter-spacing: $letterSpacing-larger;
+  line-height: $lineHeight-base;
+  color: $color-main-text-dark;
+  width: 76%;
+  margin: auto;
+}
+.slideshow-textInfoStars {
+  height: 17px;
+  width: 16%;
+  margin: auto;
+  padding-top: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+.slideshow-starIcon {
+  background-image: url('/img/star.png');
+  height: 14px;
+  width: 15px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.slideshow-slideButtons {
+  width: 50%;
+  float: right;
+  height: 53px;
+  padding-top: 28px;
+}
+.slideshow-slideButton {
+  height: 100%;
+  width: 55px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: $color-slideshow-bnt-bg;
+  &:hover {
+    background-color: $color-main-brand-bright;
+  };
+  &:after {
+    width: 14px;
+    height: 15px;
+    content: " ";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/img/arrow-light.png');
+  };
+  &:hover:after {
+    background-image: url('/img/arrow-dark.png');
+  }
+}
+.slideshow-slideButton--previous {
+  float: right;
+  box-shadow: $color-slideshow-gray-bg 3px 4px 18px 3px;
+  transform: rotate(0deg);
+  margin-right: 26px;
+  &:hover {
+    transform: rotate(180deg);
+    box-shadow: $color-slideshow-gray-bg -3px -4px 18px 3px;
+  };
+
+}
+.slideshow-slideButton--next {
+  float: right; 
+  box-shadow: $color-slideshow-gray-bg -3px -4px 18px 3px; 
+  transform: rotate(180deg);
+  &:hover {
+    transform: rotate(0deg);
+    box-shadow: $color-slideshow-gray-bg 3px 4px 18px 3px; 
+  };
+}
+
+@media screen and (max-width: 900px) {
+  .slideshow, .slideshow--teammate {
+    width: 100%;
+    float: none;
+  }
+  .slideshow-backgroundGrayBlock--aboutUs, .slideshow-backgroundGrayBlock--teammate {
+    width: 80%;
+    margin: auto;
+  }
+  .slideshow-textInfoSlides, .slideshow-slideButtons {
+    width: 80%;
+    margin: auto;
+    float: none;
+  }
+  .slideshow-textInfoBlock {
+    padding-top: 100px;
+    width: 100%;
+    float: none;
+    margin: auto;
+  }
+  .slideshow-dotsLine--teammate, .slideshow-dotsLine--aboutUs {
+    left: 0;
+  }
+}
+@media screen and (max-width: 680px) {
+  .slideshow-backgroundGrayBlock--aboutUs, .slideshow-backgroundGrayBlock--teammate, .slideshow-dotsLine--teammate, .slideshow-dotsLine--aboutUs {
+    margin-left: 0;
+    width: 100%
+  }
+  .slideshow-textInfoSlides {
+    height: 450px;
+  }
+  .slideshow-textInfoStars {
+    width: 20%
+  }
+}
+@media screen and (max-width: 450px) {
+  .slideshow-textInfoSlides {
+    height: 500px;
+  }
+  .slideshow-textInfoStars {
+    width: 30%
+  }
+  .slideshow-textInfoHeader {
+    padding: 20px;
+  }
+}

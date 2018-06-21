@@ -1,0 +1,135 @@
+@import '../components/variables.scss';
+@import '../components/helpers.scss';
+@import '../components/featuredWorksTile/featuredWorksTile.scss';
+@import '../components/feedbackForm/feedbackForm.scss';
+@import '../components/footer/footer.scss';
+@import '../components/header/header.scss';
+@import '../components/logosBlock/logosBlock.scss';
+@import '../components/ourContactsBlock/ourContactsBlock.scss';
+@import '../components/ourServicesTile/ourServicesTile.scss';
+@import '../components/slideshow/slideshow.scss';
+@import '../components/smallTeamTile/smallTeamTile.scss';
+
+
+body {
+  margin: 0;
+}
+/*small-team-bar*/
+.layout-teamPhotosBar {
+	display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 86%;
+  margin: auto;
+}
+/*small-team-tile-wraper*/
+.layout-photoWrapper {
+  width: 370px;
+  height: 436px;
+  margin-bottom: 14px;
+}
+/*featured-works-tile-wraper*/
+.layout-imagesBar {
+  width: 86%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+/*our-services-tile-wraper*/
+.layout-infoBlocksBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 85%;
+  margin: auto;
+}
+/*about-us-text-WE ACTUALLY DO AMAZING WORKS*/
+.layout-aboutUsSubtitle {
+  font-size: 1.18em;
+}
+/*our-contacts-block-and-feedback-form-wraper*/
+.layout-contactsWrap {
+  height: 460px;
+  width: 84.5%;
+  margin: auto;
+}
+/*titles-and-subtitles*/
+.layout-sectionTitle {
+  font-size: $fontSize-largest;
+  font-weight: 600;
+  line-height: $lineHeight-larger;
+  letter-spacing: $letterSpacing-large;
+  margin: 0;
+}
+.layout-sectionSubtitle {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: $letterSpacing-small;
+  padding-top: 3px;
+  color: $color-main-text-dark;
+}
+.layout-subtitle {
+  font-family: 'Merriweather', serif;
+  text-transform: uppercase;
+  margin: 0;
+}
+.layout-aboutUsText {
+  width: 36%;
+  float: right;
+  margin-right: 132px;
+}
+.layout-aboutUsTextSubtitle {
+  font-weight: 800;
+  font-size: $fontSize-larger;
+  line-height: $lineHeight-large;
+  letter-spacing: $letterSpacing-smaller;
+  color: $color-main-text-dark;
+}
+.layout-featuredWorksSubtitle, .layout-whatTheySaySubtitle, .layout-aboutUsTextSubtitle--small, .layout-ourServicesSubtitle {
+  font-size: $fontSize-base;
+}
+.layout-textArticle {
+  font-family: 'Raleway', sans-serif;
+  line-height: $lineHeight-base;
+  letter-spacing: $letterSpacing-small;
+  font-size: $fontSize-smaller;
+}
+.layout-textArticle--differentMargin {
+  margin: 33px 0 8px 0;
+}
+/*sections-modifications*/
+.aboutUs, .whatTheySay, .ourServices {
+	background-color: $color-gray-section-bg;
+}
+.layout-contacts {
+  background-image: url('/img/footer-bg.png');
+  background-size: initial;
+  background-position: 56% -19%;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .layout-aboutUsText {
+    margin-right: 70px;
+  }
+  .layout-contactsWrap {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .layout-aboutUsText {
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    margin-right: 0;
+  }
+  .layout-contactsWrap {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .layout-contactsWrap {
+    width: 100%;
+  }
+}

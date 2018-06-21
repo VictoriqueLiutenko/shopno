@@ -1,0 +1,113 @@
+@import '../variables.scss';
+
+.smallTeamTile-photo {
+	width: 100%;
+  height: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.smallTeamTile-photo--1 {
+	background-image: url('/img/team-1.jpg');
+}
+.smallTeamTile-photo--2 {
+	background-image: url('/img/team-2.jpg');
+	background-size: 450px;
+  background-position: 72% 12%;
+}
+.smallTeamTile-photo--3 {
+	background-image: url('/img/team-3.jpg');
+}
+.smallTeamTile-photo--4 {
+	background-image: url('/img/team-4.jpg');
+}
+.smallTeamTile-photo--5 {
+	background-image: url('/img/team-5.jpg');
+  background-size: 390px;
+  background-position: 23% 10%;
+}
+.smallTeamTile-photo--6 {
+	background-image: url('/img/team-1.jpg');
+}
+.smallTeamTile-info {
+  width: 90%;
+  height: 55%;
+  margin: auto;
+  position: relative;
+  bottom: 58.5%;
+  background-color: $color-main-brand-bright;
+  display: none;
+  &:before {
+    content: '';
+    width: 0;
+    height: 0;
+    right: 87%;
+    top: -19px;
+    position: absolute;
+    border-bottom: 20px solid $color-main-brand-bright;
+    border-right: 13px solid transparent;
+    border-left: 13px solid transparent;
+  }
+}
+.layout-photoWrapper:hover .smallTeamTile-info {
+  display: block;
+}
+.smallTeamTile-infoHeader {
+  margin: 0;
+  padding: 34px 38px 20px 38px;
+  font-family: 'Merriweather', serif;
+}
+.smallTeamTile-infoText--black {
+  font-size: $fontSize-large;
+  letter-spacing: $letterSpacing-base;
+  text-transform: uppercase;
+}
+.smallTeamTile-infoText--gray {
+  font-size: $fontSize-small;
+  font-weight: 100;
+  font-style: italic;
+  color: $color-small-team-light-text;
+}
+.smallTeamTile-infoText {
+  width: 78%;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: $fontSize-smaller;
+  line-height: $lineHeight-small;
+}
+.smallTeamTile-media {
+  height: 30px;
+  width: 81%;
+  margin: auto;
+  position: relative;
+  top: 32px;
+}
+.smallTeamTile-mediaIcon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.smallTeamTile-mediaIcon--facebook {
+	background-image: url('/img/facebook.png');
+  background-size: 8px;
+}
+.smallTeamTile-mediaIcon--twitter {
+	background-image: url('/img/twitter.png');
+  background-size: 13px;
+  left: 25px;
+}
+.smallTeamTile-mediaIcon--site {
+	background-image: url('/img/site.png');
+	left: 50px;
+}
+.smallTeamTile-mediaIcon--mail {
+	background-image: url('/img/mail.png');
+	left: 76px;
+}
+
+@media screen and (max-width: 450px) {
+  .smallTeamTile-info {
+    height: 58%;
+  }
+}

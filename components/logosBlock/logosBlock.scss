@@ -1,0 +1,45 @@
+.logosBlock {
+	display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.logosBlock-firstString {
+  width: 45%;
+  padding-left: 50px;
+}
+.logosBlock-secondString {
+  width: 90%;
+}
+.logosBlock-imageRko {
+	height: 58px;
+  padding-top: 50px;
+}
+.logosBlock-imageAudioPro {
+	height: 29px;
+  padding-top: 50px;
+}
+.logosBlock-imageInfinity {
+	height: 40px;
+  padding-top: 50px;
+}
+.logosBlock-imageSport {
+	height: 49px;
+  padding-top: 50px;
+}
+.logosBlock-imageSwan {
+	height: 58px;
+  padding-top: 50px;
+}
+.logosBlock-imageSwanser {
+	height: 26px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .logosBlock-firstString, .logosBlock-secondString {
+    width: 100%;
+    padding-left: 0;
+  }
+}
