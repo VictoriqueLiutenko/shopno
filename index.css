@@ -98,22 +98,22 @@
   margin-bottom: 10px; }
 
 .featuredWorksTile-work1 {
-  background-image: url("/img/works-1.jpg"); }
+  background-image: url("img/works-1.jpg"); }
 
 .featuredWorksTile-work2 {
-  background-image: url("/img/works-2.jpg"); }
+  background-image: url("img/works-2.jpg"); }
 
 .featuredWorksTile-work3 {
-  background-image: url("/img/works-3.jpg"); }
+  background-image: url("img/works-3.jpg"); }
 
 .featuredWorksTile-work4 {
-  background-image: url("/img/works-4.jpg"); }
+  background-image: url("img/works-4.jpg"); }
 
 .featuredWorksTile-work5 {
-  background-image: url("/img/works-5.jpg"); }
+  background-image: url("img/works-5.jpg"); }
 
 .featuredWorksTile-work6 {
-  background-image: url("/img/works-6.jpg"); }
+  background-image: url("img/works-6.jpg"); }
 
 /*colors*/
 /*fonts*/
@@ -127,8 +127,9 @@
   float: left; }
 
 .feedbackForm-inputWrapper {
-  display: table-cell;
-  vertical-align: middle;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
   padding: 20px 0px 6px 35px;
   width: 600px; }
 
@@ -141,13 +142,13 @@
 .feedbackForm-transparentInput {
   border: none;
   background: transparent;
-  width: 70%; }
+  width: 70%;
+  margin-left: 20px; }
   .feedbackForm-transparentInput:focus {
     outline: none; }
 
 .feedbackForm-sendMessegeInput {
-  height: 30px;
-  margin-left: 20px; }
+  height: 30px; }
 
 .feedbackForm-textareaName {
   float: left; }
@@ -240,27 +241,27 @@
     background-color: #65f6e9; }
 
 .footer-mediaItem--facebook {
-  background-image: url("/img/facebook-white.png");
+  background-image: url("img/facebook-white.png");
   background-size: 12px; }
   .footer-mediaItem--facebook:hover {
-    background-image: url("/img/facebook.png"); }
+    background-image: url("img/facebook.png"); }
 
 .footer-mediaItem--twitter {
-  background-image: url("/img/twitter-white.png");
+  background-image: url("img/twitter-white.png");
   background-size: 20px; }
   .footer-mediaItem--twitter:hover {
-    background-image: url("/img/twitter.png"); }
+    background-image: url("img/twitter.png"); }
 
 .footer-mediaItem--site {
-  background-image: url("/img/site-white.png"); }
+  background-image: url("img/site-white.png"); }
   .footer-mediaItem--site:hover {
-    background-image: url("/img/site.png");
+    background-image: url("img/site.png");
     background-size: 20px; }
 
 .footer-mediaItem--pinterest {
-  background-image: url("/img/pinterest-white.png"); }
+  background-image: url("img/pinterest-white.png"); }
   .footer-mediaItem--pinterest:hover {
-    background-image: url("/img/pinterest.png"); }
+    background-image: url("img/pinterest.png"); }
 
 .footer-rightsText {
   font-family: 'Raleway', sans-serif;
@@ -482,7 +483,7 @@
   border-radius: 1px; }
 
 .ourServicesTile-block1 {
-  background-image: url("/img/works-6.jpg");
+  background-image: url("img/works-6.jpg");
   height: 421px;
   float: left;
   width: 57%; }
@@ -493,7 +494,7 @@
     top: 83%; }
 
 .ourServicesTile-block2 {
-  background-image: url("/img/services-2.jpg");
+  background-image: url("img/services-2.jpg");
   height: 421px;
   float: right;
   width: 41%; }
@@ -504,7 +505,7 @@
     top: 83%; }
 
 .ourServicesTile-block3 {
-  background-image: url("/img/services-3.png");
+  background-image: url("img/services-3.png");
   float: left;
   width: 57%;
   height: 373px; }
@@ -515,7 +516,7 @@
     top: 81%; }
 
 .ourServicesTile-block4 {
-  background-image: url("/img/about-us-chair.jpg");
+  background-image: url("img/about-us-chair.jpg");
   float: right;
   width: 41%;
   height: 373px; }
@@ -526,7 +527,7 @@
     top: 81%; }
 
 .ourServicesTile-block5 {
-  background-image: url("/img/services-5.png");
+  background-image: url("img/services-5.png");
   float: left;
   width: 41%;
   height: 373px; }
@@ -537,7 +538,7 @@
     top: 80%; }
 
 .ourServicesTile-block6 {
-  background-image: url("/img/services-6.jpg");
+  background-image: url("img/services-6.jpg");
   float: right;
   width: 57%;
   height: 373px; }
@@ -569,7 +570,7 @@
   background-repeat: no-repeat; }
 
 .ourServicesTile-buttonImage--cross {
-  background-image: url("/img/close-cross.png");
+  background-image: url("img/close-cross.png");
   width: 18px;
   cursor: pointer; }
 
@@ -584,7 +585,7 @@
   cursor: pointer; }
 
 .ourServicesTile-buttonImage--arrow {
-  background-image: url("/img/arrow.png");
+  background-image: url("img/arrow.png");
   float: right;
   width: 15%;
   position: relative;
@@ -624,16 +625,16 @@
   height: 410px; }
 
 .slideshow-image--workSpace1 {
-  background-image: url("/img/work-space-1.jpeg"); }
+  background-image: url("img/work-space-1.jpeg"); }
 
 .slideshow-image--workSpace2 {
-  background-image: url("/img/work-space-2.jpeg"); }
+  background-image: url("img/work-space-2.jpeg"); }
 
 .slideshow-image--workSpace3 {
-  background-image: url("/img/work-space-3.jpeg"); }
+  background-image: url("img/work-space-3.jpeg"); }
 
 .slideshow-image--aboutUsChair {
-  background-image: url("/img/about-us-chair.jpg"); }
+  background-image: url("img/about-us-chair.jpg"); }
 
 .slideshow-slides {
   display: none;
@@ -683,16 +684,16 @@
   height: 362px; }
 
 .slideshow-image--teammate1 {
-  background-image: url("/img/team-1.jpg"); }
+  background-image: url("img/team-1.jpg"); }
 
 .slideshow-image--teammate2 {
-  background-image: url("/img/team-2.jpg"); }
+  background-image: url("img/team-2.jpg"); }
 
 .slideshow-image--teammate3 {
-  background-image: url("/img/team-3.jpg"); }
+  background-image: url("img/team-3.jpg"); }
 
 .slideshow-image--teammate4 {
-  background-image: url("/img/team-4.jpg"); }
+  background-image: url("img/team-4.jpg"); }
 
 .slideshow-slides--teammate {
   width: 81%;
@@ -740,7 +741,7 @@
   justify-content: space-between; }
 
 .slideshow-starIcon {
-  background-image: url("/img/star.png");
+  background-image: url("img/star.png");
   height: 14px;
   width: 15px;
   background-size: cover;
@@ -774,9 +775,9 @@
     margin: auto;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("/img/arrow-light.png"); }
+    background-image: url("img/arrow-light.png"); }
   .slideshow-slideButton:hover:after {
-    background-image: url("/img/arrow-dark.png"); }
+    background-image: url("img/arrow-dark.png"); }
 
 .slideshow-slideButton--previous {
   float: right;
@@ -845,26 +846,26 @@
   background-size: cover; }
 
 .smallTeamTile-photo--1 {
-  background-image: url("/img/team-1.jpg"); }
+  background-image: url("img/team-1.jpg"); }
 
 .smallTeamTile-photo--2 {
-  background-image: url("/img/team-2.jpg");
+  background-image: url("img/team-2.jpg");
   background-size: 450px;
   background-position: 72% 12%; }
 
 .smallTeamTile-photo--3 {
-  background-image: url("/img/team-3.jpg"); }
+  background-image: url("img/team-3.jpg"); }
 
 .smallTeamTile-photo--4 {
-  background-image: url("/img/team-4.jpg"); }
+  background-image: url("img/team-4.jpg"); }
 
 .smallTeamTile-photo--5 {
-  background-image: url("/img/team-5.jpg");
+  background-image: url("img/team-5.jpg");
   background-size: 390px;
   background-position: 23% 10%; }
 
 .smallTeamTile-photo--6 {
-  background-image: url("/img/team-1.jpg"); }
+  background-image: url("img/team-1.jpg"); }
 
 .smallTeamTile-info {
   width: 90%;
@@ -926,20 +927,20 @@
   background-repeat: no-repeat; }
 
 .smallTeamTile-mediaIcon--facebook {
-  background-image: url("/img/facebook.png");
+  background-image: url("img/facebook.png");
   background-size: 8px; }
 
 .smallTeamTile-mediaIcon--twitter {
-  background-image: url("/img/twitter.png");
+  background-image: url("img/twitter.png");
   background-size: 13px;
   left: 25px; }
 
 .smallTeamTile-mediaIcon--site {
-  background-image: url("/img/site.png");
+  background-image: url("img/site.png");
   left: 50px; }
 
 .smallTeamTile-mediaIcon--mail {
-  background-image: url("/img/mail.png");
+  background-image: url("img/mail.png");
   left: 76px; }
 
 @media screen and (max-width: 450px) {
@@ -1037,7 +1038,7 @@ body {
   background-color: #f9fafc; }
 
 .layout-contacts {
-  background-image: url("/img/footer-bg.png");
+  background-image: url("img/footer-bg.png");
   background-size: initial;
   background-position: 56% -19%; }
 

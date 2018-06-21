@@ -10,8 +10,9 @@
 	float: left;
 }
 .feedbackForm-inputWrapper {
-  display: table-cell;
-  vertical-align: middle;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
   padding: 20px 0px 6px 35px;
   width: 600px;
 }
@@ -25,13 +26,13 @@
   border: none;
   background: transparent;
   width: 70%;
+  margin-left: 20px;
   &:focus {
   	outline: none;
   }
 }
 .feedbackForm-sendMessegeInput {
   height: 30px;
-  margin-left: 20px;
 }
 .feedbackForm-textareaName {
   float: left;

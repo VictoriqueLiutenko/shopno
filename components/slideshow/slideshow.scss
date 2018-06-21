@@ -15,16 +15,16 @@
   height: 410px;
 }
 .slideshow-image--workSpace1 {
-	background-image: url('/img/work-space-1.jpeg');
+	background-image: url('img/work-space-1.jpeg');
 }
 .slideshow-image--workSpace2 {
-	background-image: url('/img/work-space-2.jpeg');
+	background-image: url('img/work-space-2.jpeg');
 }
 .slideshow-image--workSpace3 {
-	background-image: url('/img/work-space-3.jpeg');
+	background-image: url('img/work-space-3.jpeg');
 }
 .slideshow-image--aboutUsChair {
-	background-image: url('/img/about-us-chair.jpg');
+	background-image: url('img/about-us-chair.jpg');
 }
 .slideshow-slides {
 	display: none;
@@ -74,16 +74,16 @@
   height: 362px;
 }
 .slideshow-image--teammate1 {
-  background-image: url('/img/team-1.jpg');
+  background-image: url('img/team-1.jpg');
 }
 .slideshow-image--teammate2 {
-  background-image: url('/img/team-2.jpg');
+  background-image: url('img/team-2.jpg');
 }
 .slideshow-image--teammate3 {
-  background-image: url('/img/team-3.jpg');
+  background-image: url('img/team-3.jpg');
 }
 .slideshow-image--teammate4 {
-  background-image: url('/img/team-4.jpg');
+  background-image: url('img/team-4.jpg');
 }
 .slideshow-slides--teammate {
   width: 81%;
@@ -131,7 +131,7 @@
   justify-content: space-between;
 }
 .slideshow-starIcon {
-  background-image: url('/img/star.png');
+  background-image: url('img/star.png');
   height: 14px;
   width: 15px;
   background-size: cover;
@@ -166,10 +166,10 @@
     margin: auto;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('/img/arrow-light.png');
+    background-image: url('img/arrow-light.png');
   };
   &:hover:after {
-    background-image: url('/img/arrow-dark.png');
+    background-image: url('img/arrow-dark.png');
   }
 }
 .slideshow-slideButton--previous {
