@@ -1,19 +1,19 @@
 @import '../variables.scss';
 
 .ourContactsBlock {
-	background-color: $color-contact-block;
+  background-color: $color-contact-block;
   opacity: 0.8;
-	height: 100%;
+  height: 100%;
 }
 .ourContactsBlock-contacts {
-	width: 44%;
-	float: right;
+  width: 44%;
+  float: right;
 }
 .ourContactsBlock-inputText {
   font-family: 'Raleway', sans-serif;
   font-size: $fontSize-smallest;
   font-weight: 100;
-	color: $color-main-text-light;
+  color: $color-main-text-light;
 }
 .ourContactsBlock-contactItemText {
   padding-left: 33px;

@@ -16,7 +16,7 @@ body {
 }
 /*small-team-bar*/
 .layout-teamPhotosBar {
-	display: flex;
+  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   width: 86%;
@@ -100,7 +100,7 @@ body {
 }
 /*sections-modifications*/
 .aboutUs, .whatTheySay, .ourServices {
-	background-color: $color-gray-section-bg;
+  background-color: $color-gray-section-bg;
 }
 .layout-contacts {
   background-image: url('img/footer-bg.png');

@@ -27,101 +27,101 @@
   color: $color-main-text-light;
 }
 .ourServicesTile-infoWrapper--cyan {
-	color: $color-our-services-tile-text;
-	.ourServicesTile-infoWrapperSubtitle {
-		padding-top: 60px !important;
-	}
+  color: $color-our-services-tile-text;
+  .ourServicesTile-infoWrapperSubtitle {
+    padding-top: 60px !important;
+  }
 }
 .ourServicesTile-overflowWrapper {
-	max-height: 200px;
+  max-height: 200px;
   overflow: auto;
 }
 .ourServicesTile-overflowWrapper::-webkit-scrollbar { 
-	width: 4px; height: 3px;
+  width: 4px; height: 3px;
 }
 .ourServicesTile-overflowWrapper::-webkit-scrollbar-button {
-	background-color: transparent; 
+  background-color: transparent; 
 }
 .ourServicesTile-overflowWrapper::-webkit-scrollbar-track-piece { 
-	background-color: transparent;
+  background-color: transparent;
 }
 .ourServicesTile-overflowWrapper::-webkit-scrollbar-thumb { 
-	height: 3px; 
-	background-color: $color-our-services-tile-scroll; 
-	border-radius: 1px;
+  height: 3px; 
+  background-color: $color-our-services-tile-scroll; 
+  border-radius: 1px;
 }
 .ourServicesTile-block1 {
-	background-image: url('img/works-6.jpg');
+  background-image: url('img/works-6.jpg');
   height: 421px;
   float: left;
   width: 57%;
   .ourServicesTile-infoWrapperSubtitle {
-  	padding-top: 180px;
-  }
-  .ourServicesTile-infoBlockButton {
-  	left: 9.5%;
-  	top: 83%;
-  }
-}
-.ourServicesTile-block2 {
-	background-image: url('img/services-2.jpg');
-  height: 421px;
-  float: right;
-  width: 41%;
-  .ourServicesTile-infoWrapperSubtitle {
-  	padding-top: 180px;
-  }
-  .ourServicesTile-infoBlockButton {
-    left: 12.5%;
-  	top: 83%;
-  }
-}
-.ourServicesTile-block3 {
-	background-image: url('img/services-3.png');
-  float: left;
-  width: 57%;
-  height: 373px;
-  .ourServicesTile-infoWrapperSubtitle {
-  	padding-top: 160px;
+    padding-top: 180px;
   }
   .ourServicesTile-infoBlockButton {
     left: 9.5%;
-  	top: 81%;
+    top: 83%;
+  }
+}
+.ourServicesTile-block2 {
+  background-image: url('img/services-2.jpg');
+  height: 421px;
+  float: right;
+  width: 41%;
+  .ourServicesTile-infoWrapperSubtitle {
+    padding-top: 180px;
+  }
+  .ourServicesTile-infoBlockButton {
+    left: 12.5%;
+    top: 83%;
+  }
+}
+.ourServicesTile-block3 {
+  background-image: url('img/services-3.png');
+  float: left;
+  width: 57%;
+  height: 373px;
+  .ourServicesTile-infoWrapperSubtitle {
+    padding-top: 160px;
+  }
+  .ourServicesTile-infoBlockButton {
+    left: 9.5%;
+    top: 81%;
   }
 }
 .ourServicesTile-block4 {
-	background-image: url('img/about-us-chair.jpg');
+  background-image: url('img/about-us-chair.jpg');
   float: right;
   width: 41%;
   height: 373px;
   .ourServicesTile-infoWrapperSubtitle {
-  	padding-top: 160px;
+    padding-top: 160px;
   }
   .ourServicesTile-infoBlockButton {
-  	left: 12.5%;
-  	top: 81%;
+    left: 12.5%;
+    top: 81%;
   }
 }
 .ourServicesTile-block5 {
-	background-image: url('img/services-5.png');
+  background-image: url('img/services-5.png');
   float: left;
   width: 41%;
   height: 373px;
   .ourServicesTile-infoWrapperSubtitle {
-  	padding-top: 130px;
+    padding-top: 130px;
   }
   .ourServicesTile-infoBlockButton {
-  	left: 12.5%;
+    left: 12.5%;
     top: 80%;
   }
 }
 .ourServicesTile-block6 {
-	background-image: url('img/services-6.jpg');
+  background-image: url('img/services-6.jpg');
   float: right;
   width: 57%;
   height: 373px;
   .ourServicesTile-infoWrapperSubtitle {
-  	padding-top: 130px;
+    padding-top: 130px;
   }
   .ourServicesTile-infoBlockButton {
     left: 9.5%;

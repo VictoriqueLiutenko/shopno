@@ -130,8 +130,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
-  padding: 20px 0px 6px 35px;
-  width: 600px; }
+  padding: 20px 0px 6px 35px; }
 
 .feedbackForm-inputText {
   font-family: 'Raleway', sans-serif;
@@ -142,7 +141,7 @@
 .feedbackForm-transparentInput {
   border: none;
   background: transparent;
-  width: 70%;
+  width: 77%;
   margin-left: 20px; }
   .feedbackForm-transparentInput:focus {
     outline: none; }
